@@ -1,0 +1,169 @@
+CG14i.F32	CG14	F	cerro gomez	san isidro	allopatry
+CG14i.F32	CG14	F	cerro gomez	san isidro	allopatry
+CG14ii.F32	CG14	F	cerro gomez	san isidro	allopatry
+CG14iv.F32	CG14	F	cerro gomez	san isidro	allopatry
+CG14v.F32	CG14	F	cerro gomez	san isidro	allopatry
+CG14v.F32	CG14	F	cerro gomez	san isidro	allopatry
+CGf18i.F32	CGf18	F	cerro gomez	san isidro	allopatry
+CGf18ii.F32	CGf18	F	cerro gomez	san isidro	allopatry
+CGf18iv.F32	CGf18	F	cerro gomez	san isidro	allopatry
+CGf18v.F32	CGf18	F	cerro gomez	san isidro	allopatry
+CGf18v.F32	CGf18	F	cerro gomez	san isidro	allopatry
+CGf22i.F32	CGf22	F	cerro gomez	san isidro	allopatry
+CGf22ii.F32	CGf22	F	cerro gomez	san isidro	allopatry
+CGf22ii.F32	CGf22	F	cerro gomez	san isidro	allopatry
+CGf22iv.F32	CGf22	F	cerro gomez	san isidro	allopatry
+CGf22vi.F32	CGf22	F	cerro gomez	san isidro	allopatry
+CGf22vi.F32	CGf22	F	cerro gomez	san isidro	allopatry
+Cf19i.F32	Cf19	F	cuerici	san isidro	sympatry
+Cf19ii.F32	Cf19	F	cuerici	san isidro	sympatry
+Cf19iii.F32	Cf19	F	cuerici	san isidro	sympatry
+Cf19iv.F32	Cf19	F	cuerici	san isidro	sympatry
+Cf23i.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23ii.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23iii.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23iv.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23iv.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23v.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23v.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf23vi.F32	Cf23	F	cuerici	san isidro	sympatry
+Cf27i.F32	Cf27	F	cuerici	san isidro	sympatry
+Cf27i.F32	Cf27	F	cuerici	san isidro	sympatry
+Cf27ii.F32	Cf27	F	cuerici	san isidro	sympatry
+Cf27iii.F32	Cf27	F	cuerici	san isidro	sympatry				
+Cf27iv.F32	Cf27	F	cuerici	san isidro	sympatry				
+Cf27v.F32	Cf27	F	cuerici	san isidro	sympatry				
+Cf27v.F32	Cf27	F	cuerici	san isidro	sympatry				
+Cf27vi.F32	Cf27	F	cuerici	san isidro	sympatry				
+Cf27vi.F32	Cf27	F	cuerici	san isidro	sympatry				
+Cf31i.F32	Cf31	F	cuerici	san isidro	sympatry				
+Cf31ii.F32	Cf31	F	cuerici	san isidro	sympatry				
+Cf31iii.F32	Cf31	F	cuerici	san isidro	sympatry				
+Cf32i.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32ii.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32ii.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32iii.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32iii.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32iv.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32iv.F32	Cf32	F	cuerici	san isidro	sympatry				
+Cf32v.F32	Cf32	F	cuerici	san isidro	sympatry							
+Cf32v.F32	Cf32	F	cuerici	san isidro	sympatry							
+CGm11i.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm11i.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm11ii.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm11iii.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm11iv.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm11iv.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm11vi.F32	CGm11	M	cerro gomez	san isidro	allopatry							
+CGm15i.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15i.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15i.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15ii.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15ii.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15ii.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15iii.F32	CGm15	M	cerro gomez	san isidro	allopatry							
+CGm15iii.F32	CGm15	M	cerro gomez	san isidro	allopatry
+CGm16i.F32	CGm16	M	cerro gomez	san isidro	allopatry
+CGm16ii.F32	CGm16	M	cerro gomez	san isidro	allopatry
+CGm16iii.F32	CGm16	M	cerro gomez	san isidro	allopatry
+CGm16iv.F32	CGm16	M	cerro gomez	san isidro	allopatry
+CGm17i.F32	CGm17	M	cerro gomez	san isidro	allopatry
+CGm17ii.F32	CGm17	M	cerro gomez	san isidro	allopatry
+CGm17iii.F32	CGm17	M	cerro gomez	san isidro	allopatry
+CGm17v.F32	CGm17	M	cerro gomez	san isidro	allopatry
+CGm20i.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20iii.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20iv.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20iv.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20v.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20v.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20vi.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm20vi.F32	CGm20	M	cerro gomez	san isidro	allopatry
+CGm21i.F32	CGm21	M	cerro gomez	san isidro	allopatry
+CGm21i.F32	CGm21	M	cerro gomez	san isidro	allopatry
+CGm21ii.F32	CGm21	M	cerro gomez	san isidro	allopatry
+CGm21iii.F32	CGm21	M	cerro gomez	san isidro	allopatry
+CGm21iv.F32	CGm21	M	cerro gomez	san isidro	allopatry
+CGm21v.F32	CGm21	M	cerro gomez	san isidro	allopatry
+CGm26i.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm26i.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm26iii.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm26iv.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm26iv.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm26v.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm26v.F32	CGm26	M	cerro gomez	san isidro	allopatry
+CGm27i.F32	CGm27	M	cerro gomez	san isidro	allopatry
+CGm27i.F32	CGm27	M	cerro gomez	san isidro	allopatry
+CGm27ii.F32	CGm27	M	cerro gomez	san isidro	allopatry							
+CGm27ii.F32	CGm27	M	cerro gomez	san isidro	allopatry							
+CGm27iii.F32	CGm27	M	cerro gomez	san isidro	allopatry							
+CGm27iv.F32	CGm27	M	cerro gomez	san isidro	allopatry							
+CGm28i.F32	CGm28	M	cerro gomez	san isidro	allopatry							
+CGm28ii.F32	CGm28	M	cerro gomez	san isidro	allopatry							
+CGm28iii.F32	CGm28	M	cerro gomez	san isidro	allopatry							
+CGm28iv.F32	CGm28	M	cerro gomez	san isidro	allopatry							
+CGm28v.F32	CGm28	M	cerro gomez	san isidro	allopatry							
+CGm28vi.F32	CGm28	M	cerro gomez	san isidro	allopatry							
+CGm29i.32	CGm29.32	M	cerro gomez	san isidro	allopatry							
+CGm29ii.32	CGm29.32	M	cerro gomez	san isidro	allopatry							
+CGm29iv.32	CGm29.32	M	cerro gomez	san isidro	allopatry							
+CGm29iv.32	CGm29.32	M	cerro gomez	san isidro	allopatry							
+CGm2i.F32	CGm2	M	cerro gomez	san isidro	allopatry							
+CGm2ii.F32	CGm2	M	cerro gomez	san isidro	allopatry							
+CGm2v.F32	CGm2	M	cerro gomez	san isidro	allopatry				
+CGm2vi.F32	CGm2	M	cerro gomez	san isidro	allopatry				
+CGm4i.F32	CGm4	M	cerro gomez	san isidro	allopatry				
+CGm4i.F32	CGm4	M	cerro gomez	san isidro	allopatry				
+CGm4ii.F32	CGm4	M	cerro gomez	san isidro	allopatry				
+CGm4ii.F32	CGm4	M	cerro gomez	san isidro	allopatry				
+CGm5ii.F32	CGm5	M	cerro gomez	san isidro	allopatry				
+CGm5iii.F32	CGm5	M	cerro gomez	san isidro	allopatry				
+CGm5iii.F32	CGm5	M	cerro gomez	san isidro	allopatry				
+CGm6i.F32	CGm6	M	cerro gomez	san isidro	allopatry				
+CGm6ii.F32	CGm6	M	cerro gomez	san isidro	allopatry				
+CGm6iii.F32	CGm6	M	cerro gomez	san isidro	allopatry				
+CGm6iv.F32	CGm6	M	cerro gomez	san isidro	allopatry				
+CGm6iv.F32	CGm6	M	cerro gomez	san isidro	allopatry				
+CGm8i.F32	CGm8	M	cerro gomez	san isidro	allopatry				
+CGm8ii.F32	CGm8	M	cerro gomez	san isidro	allopatry				
+CGm8ii.F32	CGm8	M	cerro gomez	san isidro	allopatry
+CGm8ii.F32	CGm8	M	cerro gomez	san isidro	allopatry
+CGm8iii.F32	CGm8	M	cerro gomez	san isidro	allopatry
+CGm8iii.F32	CGm8	M	cerro gomez	san isidro	allopatry
+CGm8iv.F32	CGm8	M	cerro gomez	san isidro	allopatry
+CGm8iv.F32	CGm8	M	cerro gomez	san isidro	allopatry
+Cm18i.F32	Cm18	M	cuerici	san isidro	sympatry
+Cm18ii.F32	Cm18	M	cuerici	san isidro	sympatry
+Cm18iii.F32	Cm18	M	cuerici	san isidro	sympatry
+Cm18iv.F32	Cm18	M	cuerici	san isidro	sympatry
+Cm18vi.F32	Cm18	M	cuerici	san isidro	sympatry
+Cm28i.F32	Cm28	M	cuerici	san isidro	sympatry
+Cm28ii.F32	Cm28	M	cuerici	san isidro	sympatry
+Cm28iii.F32	Cm28	M	cuerici	san isidro	sympatry
+Cm28iv.F32	Cm28	M	cuerici	san isidro	sympatry
+Cm29i.F32	Cm29	M	cuerici	san isidro	sympatry
+Cm29ii.F32	Cm29	M	cuerici	san isidro	sympatry
+Cm29iii.F32	Cm29	M	cuerici	san isidro	sympatry
+Cm29iv.F32	Cm29	M	cuerici	san isidro	sympatry
+Cm33i.F32	Cm33	M	cuerici	san isidro	sympatry
+Cm33ii.F32	Cm33	M	cuerici	san isidro	sympatry
+Cm33iii.F32	Cm33	M	cuerici	san isidro	sympatry
+Cm33iv.F32	Cm33	M	cuerici	san isidro	sympatry
+Cm33v.F32	Cm33	M	cuerici	san isidro	sympatry
+Cm35i.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35ii.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35ii.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35iii.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35iii.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35iv.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35v.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35v.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm35vi.F32	Cm35	M	cuerici	san isidro	sympatry
+Cm36i.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36ii.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36iii.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36iv.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36v.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36vi.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36vii.F32	Cm36	M	cuerici	san isidro	sympatry
+Cm36vii.F32	Cm36	M	cuerici	san isidro	sympatry

@@ -1,0 +1,551 @@
+PNRf55i	PNRf55	T	F	PNR	boquete	allopatry	2000000	1	195312.5
+PNRf55i	PNRf55	T	F	PNR	boquete	allopatry	2000000	2	195312.5
+PNRf55ii	PNRf55	T	F	PNR	boquete	allopatry	2000000	1	195312.5
+PNRf55iii	PNRf55	T	F	PNR	boquete	allopatry	2000000	1	195312.5
+PNRf55iv	PNRf55	T	F	PNR	boquete	allopatry	2000000	1	195312.5
+PNRf55v	PNRf55	T	F	PNR	boquete	allopatry	2000000	1	195312.5
+PNRf68i	PNRf68	T	F	PNR	boquete	allopatry	1000000	1	195312.5
+PNRf68ii	PNRf68	T	F	PNR	boquete	allopatry	1000000	1	195312.5
+PNRf68iii	PNRf68	T	F	PNR	boquete	allopatry	1000000	1	195312.5
+PNRf73i	PNRf73	T	F	PNR	boquete	allopatry	1000000	1	195312.5
+PNRf73ii	PNRf73	T	F	PNR	boquete	allopatry	1000000	1	195312.5
+PNRf73iii	PNRf73	T	F	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm26ii	PNRm26	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm26iii	PNRm26	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm26iv	PNRm26	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm33i	PNRm33	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm33ii	PNRm33	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm33iii	PNRm33	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm42ii	PNRm42	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm42iii	PNRm42	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNrm42iv	PNRm42	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm50i	PNRm50	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm50ii	PNRm50	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm50iii	PNRm50	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm52iii	PNRm52	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm52v	PNRm52	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm52vi	PNRm52	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm57i	PNRm57	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm57ii	PNRm57	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm57iii	PNRm57	T	M	PNR	boquete	allopatry	200000	1	195312.5
+PNRm57iv	PNRm57	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm59i	PNRm59	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm59ii	PNRm59	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm59iii	PNRm59	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm64Bi	PNRm64B	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm64Bii	PNRm64B	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm64Biv	PNRm64B	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm64ii	PNRm64	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm64iii	PNRm64	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm64iv	PNRm64	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm67ii	PNRm67	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm67iii	PNRm67	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm67iv	PNRm67	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm70i	PNRm70	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm70ii	PNRm70	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm70iii	PNRm70	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm70iv	PNRm70	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm72ii	PNRm72	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm72iii	PNRm72	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm72iv	PNRm72	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm79i	PNRm79	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm79ii	PNRm79	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm79iv	PNRm79	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm80i	PNRm80	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm80ii	PNRm80	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm80iii	PNRm80	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm83i	PNRm83	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm83ii	PNRm83	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm83iv	PNRm83	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm83vii	PNRm83	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm84i	PNRm84	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm84ii	PNRm84	T	M	PNR	boquete	allopatry	1000000	1	195312.5
+PNRm84iii	PNRm84	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm87i	PNRm87	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm87ii	PNRm87	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm87iii	PNRm87	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm90ii	PNRm90	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm90iii	PNRm90	T	M	PNR	boquete	allopatry	2000000	1	195312.5
+PNRm90iv	PNRm90	T	M	PNR	boquete	allopatry	2000000	2	195312.5
+VBNPf6i	VBNPf6	T	F	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPf6ii	VBNPf6	T	F	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPf6iv	VBNPf6	T	F	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPf6v	VBNPf6	T	F	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm21i 	VBNPm21 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm21ii 	VBNPm21 	T	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBNPm21iii 	VBNPm21 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm21iv 	VBNPm21 	T	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBNPm23i 	VBNPm23 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm23ii 	VBNPm23 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm23iii	VBNPm23 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm23iv	VBNPm23 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm29ii 	VBNPm29	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm29iii 	VBNPm29	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm29iv 	VBNPm29	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm32ii	VBNPm32	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm32iii	VBNPm32	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm34i	VBNPm34	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm34ii	VBNPm34	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm34iii	VBNPm34	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm34iv	VBNPm34	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm38i	VBNPm38	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm38ii	VBNPm38	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm38iii	VBNPm38	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm45i	VBNPm45	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm45ii	VBNPm45	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm45iii	VBNPm45	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm46i	VBNPm46	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm46ii	VBNPm46	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm46iii	VBNPm46	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm46iv	VBNPm46	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm48i	VBNPm48	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm48ii	VBNPm48	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm48iii	VBNPm48	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm4i	VBNPm4	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm4iii	VBNPm4	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm4iv	VBNPm4	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm4v	VBNPm4	T	M	VBNP	boquete	sympatry	2000000	2	195312.5
+VBNPm4vii	VBNPm4	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm51i 	VBNPm51 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm51ii 	VBNPm51 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm51iii 	VBNPm51 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm51iv 	VBNPm51 	T	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBNPm55i	VBNPm55	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm55ii	VBNPm55	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm55iii	VBNPm55	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm55iv	VBNPm55	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm55v	VBNPm55	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm56i	VBNPm56	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm56ii	VBNPm56	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm56iii	VBNPm56	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm56iv	VBNPm56	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm57i 	VBNPm57 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm57ii 	VBNPm57 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm57iii 	VBNPm57 	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm59i	VBNPm59	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm59iii	VBNPm59	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBNPm59iv	VBNPm59	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+CGf18i.F32	CGf18	T	F	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGf18ii.F32	CGf18	T	F	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGf18iv.F32	CGf18	T	F	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGf18v.F32	CGf18	T	F	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGf18v.F32	CGf18	T	F	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGf22i.F32	CGf22	T	F	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGf22ii.F32	CGf22	T	F	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGf22ii.F32	CGf22	T	F	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGf22iv.F32	CGf22	T	F	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGf22vi.F32	CGf22	T	F	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGf22vi.F32	CGf22	T	F	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+Cf19i.F32	Cf19	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf19ii.F32	Cf19	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf19iii.F32	Cf19	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf19iv.F32	Cf19	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf23i.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf23ii.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf23iii.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf23iv.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf23iv.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf23v.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf23v.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf23vi.F32	Cf23	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf27i.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf27i.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf27ii.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf27iii.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf27iv.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf27v.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf27v.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf27vi.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf27vi.F32	Cf27	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf31i.F32	Cf31	T	F	cuerici	san isidro	sympatry	6000000	1	195312.5
+Cf31ii.F32	Cf31	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf31iii.F32	Cf31	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf32i.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf32ii.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf32ii.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf32iii.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf32iii.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf32iv.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf32iv.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cf32v.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cf32v.F32	Cf32	T	F	cuerici	san isidro	sympatry	3000000	2	195312.5
+CGm14i.F32	CG14	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm14i.F32	CG14	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm14ii.F32	CG14	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm14iv.F32	CG14	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm14v.F32	CG14	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm14v.F32	CG14	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm11i.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm11i.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm11ii.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm11iii.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm11iv.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm11iv.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm11vi.F32	CGm11	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm15i.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm15i.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm15i.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+CGm15ii.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm15ii.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm15iii.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm15iii.F32	CGm15	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+CGm16i.F32	CGm16	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm16ii.F32	CGm16	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm16iii.F32	CGm16	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm16iv.F32	CGm16	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm17i.F32	CGm17	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm17ii.F32	CGm17	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm17iii.F32	CGm17	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm17v.F32	CGm17	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm20i.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm20iii.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm20iv.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm20iv.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm20v.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm20v.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm20vi.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm20vi.F32	CGm20	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm21i.F32	CGm21	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm21i.F32	CGm21	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm21ii.F32	CGm21	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm21iii.F32	CGm21	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm21iv.F32	CGm21	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm21v.F32	CGm21	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm26i.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm26i.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm26iii.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm26iv.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm26iv.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm26v.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm26v.F32	CGm26	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm27i.F32	CGm27	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm27i.F32	CGm27	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm27ii.F32	CGm27	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm27ii.F32	CGm27	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm27iii.F32	CGm27	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm27iv.F32	CGm27	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm28i.F32	CGm28	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm28ii.F32	CGm28	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm28iii.F32	CGm28	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm28iv.F32	CGm28	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm28v.F32	CGm28	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm28vi.F32	CGm28	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm29i.F32	CGm29.32	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm29ii.F32	CGm29.32	T	M	cerro gomez	san isidro	allopatry	6000000	1	195312.5
+CGm29iv.F32	CGm29.32	T	M	cerro gomez	san isidro	allopatry	3000000	2	195312.5
+CGm29iv.F32	CGm29.32	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm2i.F32	CGm2	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm2v.F32	CGm2	T	M	cerro gomez	san isidro	allopatry	3000000	1	195312.5
+CGm4i.F32	CGm4	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm4i.F32	CGm4	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+CGm4ii.F32	CGm4	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm4ii.F32	CGm4	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm5ii.F32	CGm5	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+CGm5iii.F32	CGm5	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm5iii.F32	CGm5	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm6i.F32	CGm6	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+CGm6ii.F32	CGm6	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm6iii.F32	CGm6	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm6iv.F32	CGm6	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm8i.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm8ii.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm8ii.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm8ii.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+CGm8iii.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm8iii.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	2	195312.5
+CGm8iv.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	1	195312.5
+CGm8iv.F32	CGm8	T	M	cerro gomez	san isidro	allopatry	2000000	3	195312.5
+Cm18i.F32	Cm18	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm18ii.F32	Cm18	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm18iii.F32	Cm18	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm18iv.F32	Cm18	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm18vi.F32	Cm18	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm28i.F32	Cm28	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm28ii.F32	Cm28	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm28iii.F32	Cm28	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm28iv.F32	Cm28	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm29ii.F32	Cm29	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm29iv.F32	Cm29	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm33i.F32	Cm33	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm33ii.F32	Cm33	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm33iii.F32	Cm33	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm33iv.F32	Cm33	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm33v.F32	Cm33	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm35i.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm35ii.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm35ii.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm35iii.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm35iv.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm35v.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm35v.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm35vi.F32	Cm35	T	M	cuerici	san isidro	sympatry	3000000	2	195312.5
+Cm36i.F32	Cm36	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm36ii.F32	Cm36	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm36iii.F32	Cm36	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm36iv.F32	Cm36	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+Cm36v.F32	Cm36	T	M	cuerici	san isidro	sympatry	3000000	1	195312.5
+VBtm90i.F32	VBtm90	T	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBtm90i.F32	VBtm90	T	M	VBNP	boquete	sympatry	1000000	5	195312.5
+VBtm90ii.F32	VBtm90	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBtm90ii.F32	VBtm90	T	M	VBNP	boquete	sympatry	2000000	2	195312.5
+VBtm90ii.F32	VBtm90	T	M	VBNP	boquete	sympatry	2000000	3	195312.5
+VBtm90iii.F32	VBtm90	T	M	VBNP	boquete	sympatry	2000000	1	195312.5
+VBtm90iii.F32	VBtm90	T	M	VBNP	boquete	sympatry	2000000	2	195312.5
+VBxm71ai.F32	VBxm71a	X	M	VBNP	boquete	sympatry	1000000	4	195312.5
+VBxm71aii.F32	VBxm71a	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm73i.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm73i.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm73ii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm73ii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm73iii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm73iii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm73iii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBxm73iv.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm73iv.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm73vi.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm73vii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm73vii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm73vii.F32	VBxm73	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBxm74i.F32	VBxm74	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm74iii.F32	VBxm74	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm74iii.F32	VBxm74	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm74iii.F32	VBxm74	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBxm76i.F32	VBxm76	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm77i.F32	VBxm77	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm77i.F32	VBxm77	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm77i.F32	VBxm77	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBxm78i.F32	VBxm78	X	M	VBNP	boquete	sympatry	1000000	1	195312.5
+VBxm82i.F32	VBxm82	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm88i.F32	VBxm88	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm93i.F32	VBxm93	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm93ii.F32	VBxm93	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBxm93iii.F32	VBxm93	X	M	VBNP	boquete	sympatry	1000000	5	195312.5
+VBxm93iv.F32	VBxm93	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm93v.F32	VBxm93	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm98i.F32	VBxm98	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+VBxm99i.F32	VBxm99	X	M	VBNP	boquete	sympatry	1000000	2	195312.5
+VBxm99ii.F32	VBxm99	X	M	VBNP	boquete	sympatry	1000000	3	195312.5
+CX37i.F32	CX37	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX39i.F32	CX39	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX39i.F32	CX39	X	M	cuerici	san isidro	sympatry	1000000	2	195312.5
+CX45i.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX45i.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	2	195312.5
+CX45i.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	3	195312.5
+CX45i.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	4	195312.5
+CX45i.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	5	195312.5
+CX45i.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	6	195312.5
+CX45ii.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX45ii.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	3	195312.5
+CX45ii.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	5	195312.5
+CX45ii.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	6	195312.5
+CX45iii.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	5	195312.5
+CX45iii.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	6	195312.5
+CX45iv.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	3	195312.5
+CX45v.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	3	195312.5
+CX45v.F32	CX45	X	M	cuerici	san isidro	sympatry	1000000	4	195312.5
+CX47i.F32	CX47	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX51i.F32	CX51	X	M	cuerici	san isidro	sympatry	1000000	2	195312.5
+CX51i.F32	CX51	X	M	cuerici	san isidro	sympatry	1000000	4	195312.5
+CX51i.F32	CX51	X	M	cuerici	san isidro	sympatry	1000000	6	195312.5
+CX52i.F32	CX52	X	M	cuerici	san isidro	sympatry	1000000	2	195312.5
+CX53i.F32	CX53	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX53i.F32	CX53	X	M	cuerici	san isidro	sympatry	1000000	2	195312.5
+CX55i.F32	CX55	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CX79i.F32	CX79	X	M	cuerici	san isidro	sympatry	1000000	2	195312.5
+CX85i.F32	CX85	X	M	cuerici	san isidro	sympatry	1000000	1	195312.5
+CT61ii.F32	CT61	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT62i.F32	CT62	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT62ii.F32	CT62	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT62ii.F32	CT62	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT67ii.F32	CT67	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT67iii.F32	CT67	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT67vi.F32	CT67	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT69i.F32	CT69	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT69ii.F32	CT69	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT69iii.F32	CT69	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT74i.F32	CT74	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT74ii.F32	CT74	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT74iii.F32	CT74	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT74iv.F32	CT74	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT76i.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT76ii.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT76iii.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT76iv.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT76v.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT76v.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT76v.F32	CT76	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+CT78i.F32	CT78	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT78ii.F32	CT78	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT78iii.F32	CT78	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT78iii.F32	CT78	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT78iii.F32	CT78	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+CT88iii.F32	CT88	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT90i.F32	CT90	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT90ii.F32	CT90	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT90ii.F32	CT90	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT90iii.F32	CT90	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT90iii.F32	CT90	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT92i.F32	CT92	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT92ii.F32	CT92	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT92iii.F32	CT92	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT94i.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT94ii.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT94ii.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT94ii.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+CT94iii.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT94iii.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+CT94iv.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT94iv.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT94iv.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+CT94v.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT94v.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT94v.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+CT94vi.F32	CT94	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT97i.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT97ii.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT97iii.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT97iv.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT97v.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT97v.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT97vi.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	1	195312.5
+CT97vi.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	2	195312.5
+CT97vi.F32	CT97	T	M	cuerici	san isidro	sympatry	2000000	3	195312.5
+IR01i.F32	IR01	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR01ii.F32	IR01	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR01iii.F32	IR01	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR02i.F32	IR02	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR02ii.F32	IR02	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR02iii.F32	IR02	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR02iv.F32	IR02	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR03i.F32	IR03	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR03ii.F32	IR03	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR03iii.F32	IR03	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR03iv.F32	IR03	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR06i.F32	IR06	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR06ii.F32	IR06	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR06iii.F32	IR06	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR06iv.F32	IR06	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR10i.F32	IR10	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR10ii.F32	IR10	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR10iii.F32	IR10	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR14i.F32	IR14	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR14ii.F32	IR14	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR14ii.F32	IR14	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR14iii.F32	IR14	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR15i.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR15i.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR15ii.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR15ii.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR15iii.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR15iii.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR15iv.F32	IR15	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR16i.F32	IR16	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR16i.F32	IR16	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR16ii.F32	IR16	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR16ii.F32	IR16	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR17i.F32	IR17	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR17ii.F32	IR17	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR17iii.F32	IR17	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR18i.F32	IR18	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR18i.F32	IR18	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR18i.F32	IR18	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR19i.F32	IR19	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR19ii.F32	IR19	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR19iii.F32	IR19	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR19iii.F32	IR19	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR22i.F32	IR22	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR22ii.F32	IR22	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR22iii.F32	IR22	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR25i.F32	IR25	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR25i.F32	IR25	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR25i.F32	IR25	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR25ii.F32	IR25	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR25iii.F32	IR25	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR30i.F32	IR30	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR30ii.F32	IR30	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR31i.F32	IR31	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR32i.F32	IR32	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR32i.F32	IR32	X	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR34i.F32	IR34	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR34ii.F32	IR34	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR34iii.F32	IR34	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR40i.F32	IR40	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR44i.F32	IR44	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR45i.F32	IR45	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR46i.F32	IR46	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR48i.F32	IR48	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR48i.F32	IR48	X	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR48i.F32	IR48	X	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR50i.F32	IR50	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR50i.F32	IR50	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR50ii.F32	IR50	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR51i.F32	IR51	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR51ii.F32	IR51	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR51iii.F32	IR51	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR52i.F32	IR52	X	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR53iii.F32	IR53	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR54i.F32	IR54	X	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR56i.F32	IR56	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR56i.F32	IR56	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR56ii.F32	IR56	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR56iii.F32	IR56	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR57i.F32	IR57	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR57i.F32	IR57	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR57ii.F32	IR57	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR59i.F32	IR59	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR59ii.F32	IR59	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR59iii.F32	IR59	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR59iv.F32	IR59	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR59v.F32	IR59	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR59v.F32	IR59	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR60i.F32	IR60	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR60iii.F32	IR60	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR60iv.F32	IR60	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR60v.F32	IR60	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR61ii.F32	IR61	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR61ii.F32	IR61	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR61iii.F32	IR61	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR62i.F32	IR62	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR62i.F32	IR62	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR62i.F32	IR62	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR62ii.F32	IR62	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR62iii.F32	IR62	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR63i.F32	IR63	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR63ii.F32	IR63	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR63ii.F32	IR63	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR63ii.F32	IR63	T	M	irazu	iztaru	sympatry	2000000	3	195312.5
+IR64i.F32	IR64	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR64ii.F32	IR64	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR64iii.F32	IR64	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+IR64iii.F32	IR64	T	M	irazu	iztaru	sympatry	2000000	2	195312.5
+IR64iv.F32	IR64	T	M	irazu	iztaru	sympatry	2000000	1	195312.5
+LCm1iv.F32	LCm1	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm1vi.F32	LCm1	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm1viii.F32	LCm1	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm2i.F32	LCm2	T	M	La Carpintera	iztaru	allopatry	3000000	4	195312.5
+LCm2iii.F32	LCm2	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm3iii.F32	LCm3	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm3iv.F32	LCm3	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm3v.F32	LCm3	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm5i.F32	LCm5	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm5ii.F32	LCm5	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm5iii.F32	LCm5	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm5v.F32	LCm5	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm6ii.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm6iii.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm6ix.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm6v.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm6vi.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm6viii.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm6viii.F32	LCm6	T	M	La Carpintera	iztaru	allopatry	3000000	4	195312.5
+LCm7ii.F32	LCm7	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm7iii.F32	LCm7	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm7iv.F32	LCm7	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm8i.F32	LCm8	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm8ii.F32	LCm8	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm8iv.F32	LCm8	T	M	La Carpintera	iztaru	allopatry	6000000	1	195312.5
+LCm9ii.F32	LCm9	T	M	La Carpintera	iztaru	allopatry	6000000	1	195312.5
+LCm9iii.F32	LCm9	T	M	La Carpintera	iztaru	allopatry	3000000	1	195312.5
+LCm9iv.F32	LCm9	T	M	La Carpintera	iztaru	allopatry	6000000	1	195312.5
+LCm9v.F32	LCm9	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
+LCm9vi.F32	LCm9	T	M	La Carpintera	iztaru	allopatry	3000000	2	195312.5
