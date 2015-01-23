@@ -22,10 +22,13 @@ onset_song = note_starts(1,1);
 offset_song = note_ends(end,end);
 
 %Converting that onset and offset back to samples rather than msec; also,
-%pulling a few samples ahead so you catch the whole song with a little
+%pulling a bunch of samples ahead so you catch the whole song with a little
 %wiggle room
-onset_song = round((samp_freq*onset_song/1000) - 500);
-offset_song = round((samp_freq*offset_song/1000) + 500);
+onset_song = round((samp_freq*onset_song/1000) - 100000);
+if onset_song <1
+    onset_song = 1;
+end
+offset_song = round((samp_freq*offset_song/1000) + 50000);
 
 %Now we want to trim the file to the length of the song itself...
 trimmed_song = song(onset_song:offset_song);
