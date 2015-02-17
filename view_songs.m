@@ -32,14 +32,19 @@ for i=1:num_songs
     finish = i*song_length;
     if num_songs == 1
         specgram(songs, 512, samp_freq);
+        caxis([-100 20])
     elseif num_songs <= 4
         subplot (4, 1, i), specgram(songs(start:finish), 512, samp_freq);
+        caxis([-100 20])
     elseif num_songs <= 6
         subplot (6, 1, i), specgram(songs(start:finish), 512, samp_freq);
+        caxis([-100 20])
     elseif num_songs <= 8
         subplot (4, 2, i), specgram(songs(start:finish), 512, samp_freq);
+        caxis([-100 20])
     elseif num_songs <= 12
         subplot (6, 2, i), specgram(songs(start:finish), 512, samp_freq);
+        caxis([-100 20])
     end
 end
 caxis([-100 20])
