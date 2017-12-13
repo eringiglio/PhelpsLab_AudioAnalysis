@@ -23,7 +23,7 @@ function [call_stats, call_stat_labels, all_notes_matrix, note_labels] = msr_all
 % "res" are the average residuals from the corresponding curves. The third output variable is a matrix of variables measured for
 % individual notes within a call (notes in rows, variables in columns) on which the curves were based. The final output is
 % a list of labels for this matrix. Note that both label lists have the variables in rows and letters of the labels in columns.
-% In contrast, the data outputs have variables in columns and notes in columns. This is due to teh way Matlab treats text.
+% In contrast, the data outputs have variables in columns and notes in columns. This is due to the way Matlab treats text.
 % The text will need to be transposed before being used as a labels in a spreadsheet or text file.
 % 
 % The routine calls, directly or indirectly, nearly all of the routines in the "call analysis tools" folder. 

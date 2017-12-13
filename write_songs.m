@@ -1,6 +1,6 @@
 function write_songs(filename, song)
 
-%write_calls(call_num, filename, call_length, calls)
+%write_songs(filename, song) 
 
 fid = fopen(filename, 'w');
 
