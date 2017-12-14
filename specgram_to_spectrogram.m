@@ -5,6 +5,8 @@ function [song,window,noverlap,nfft,Fs] = specgram_to_spectrogram(song,nfft,Fs)
 % and use spectrogram to create the graph. This will be useful as specgram
 % has been depreciated for approximately five years now. 
 %
+%	Erin M Giglio, 12/14/2017.
+%
 % We've historically used specgram with three inputs, like so:
 %     specgram(songs, 512, samp_freq);
 %     
