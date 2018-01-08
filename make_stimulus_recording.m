@@ -1,9 +1,7 @@
 function[finished_stimulus] = make_stimulus_recording(file_name1, file_name2, file_name3, name_of_file, samp_freq_output, samp_freq_input)
 
 % This program is intended to take inputs from separate files, paste them
-% together, and resample them for the RX8. They'll need to be pre-trimmed
-% and honestly this may not be easily automated, but this will serve as a
-% good summary of workflow.
+% together, and resample them for the RX8. 
 
 %List of subroutines that you must have to run this program:
     %read_songs
