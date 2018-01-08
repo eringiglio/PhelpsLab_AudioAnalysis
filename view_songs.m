@@ -49,6 +49,9 @@ for i=1:num_songs
 end
 caxis([-100 20])
 
+%filename = strcat(file_name,'1.fig')
+%savefig(filename)
+
 %Now plot calls in oscillogram form
 
 %define X axis
