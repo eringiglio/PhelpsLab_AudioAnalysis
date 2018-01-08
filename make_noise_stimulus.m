@@ -1,4 +1,4 @@
-function[finished_stimulus] = make_stimulus_recording(file_name1, file_name2, file_name3, name_of_file, samp_freq_output, samp_freq_input)
+function[finished_stimulus] = make_noise_recording(file_name1, file_name2, file_name3, name_of_file, samp_freq_output, samp_freq_input)
 
 % This program is intended to take the same song recordings used in 
 % make_stimulus_recording and create a paired noise stimulus. However,
