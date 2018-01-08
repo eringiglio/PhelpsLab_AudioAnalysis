@@ -1,12 +1,16 @@
-function [songs] = view_many_songs(songList,samp_freq)
+function [songs] = view_many_songs(songList,fileList,samp_freq)
 
 %songList should be a list of the songs you wish to view as a set, formatted like this:
 % >> songList = [song1, song2, song3, song4];
 
+%fileList should be a list of song titles formatted the same way, like a header for songList. Each song should have a quality score next to it from 1 to 5. If there is no quality score, it should read "0." So the matrix should look like so:
+% [songname1, songname2, songname3, songname4;
+% quality1, quality2, quality 3, quality 4]
+
 [r,num_songs] = size(songList);
 
 % define default sample frequency
-if nargin<2
+if nargin<3
     samp_freq = 195312.5;
 end
 
@@ -17,14 +21,26 @@ for i=1:num_songs
 	thisSong = songList(:,i);
     if num_songs == 1
         specgram(songs, 512, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
+        caxis([-100 20])
     elseif num_songs <= 4
         subplot (4, 1, i), specgram(thisSong, 512, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
+        caxis([-100 20])
     elseif num_songs <= 6
         subplot (6, 1, i), specgram(thisSong, 512, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
+        caxis([-100 20])
     elseif num_songs <= 8
         subplot (4, 2, i), specgram(thisSong, 512, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
+        caxis([-100 20])
     elseif num_songs <= 12
         subplot (6, 2, i), specgram(thisSong, 512, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
+        caxis([-100 20])
+    elseif num_songs > 12
+        error('Too many songs! Please give me 12 or fewer next time.')
     end
 end
 caxis([-100 20])
@@ -36,11 +52,15 @@ for i=1:num_songs
         oscillogram(songs, 512, samp_freq);
     elseif num_songs <= 4
         subplot (4, 1, i), oscillogram(thisSong, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
     elseif num_songs <= 6
         subplot (6, 1, i), oscillogram(thisSong, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
     elseif num_songs <= 8
         subplot (4, 2, i), oscillogram(thisSong, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
     elseif num_songs <= 12
         subplot (6, 2, i), oscillogram(thisSong, samp_freq);
+        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
     end
 end
