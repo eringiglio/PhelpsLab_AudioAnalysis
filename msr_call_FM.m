@@ -35,7 +35,8 @@ end
 a = round(note_starts*sampling_rate/1000); % convert from msec to samples
 b = round(note_ends*sampling_rate/1000);
 
-a = a - spec_resol/2; % For puropses of measuring frequency parameter, need to expand window so that frequency analysis window can be centered at beginning and end of note. 
+a = a - spec_resol/2; % For purposes of measuring frequency parameter, need to expand window so that frequency analysis window can be centered at beginning and end of note. 
+a(a<0) = 1; %a should never be negative! 
 b = b + spec_resol/2;
 
 for i=1:note_num
