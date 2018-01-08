@@ -91,6 +91,10 @@ for i =1:num_calls
     call = fread(fid, n, 'float32');
     if call_position > 1
         call = call(((call_position-1)*call_length + 1):call_position*call_length);
+    elseif call_position == 1
+        call = call(1:call_length);
+    else
+        error('Error specifying call position. Should be positive integer size 1 or larger.')
     end
     fclose(fid);
     
