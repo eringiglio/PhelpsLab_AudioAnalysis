@@ -43,7 +43,8 @@ else
     fig_on = anal_param(4,1); %if fig on is 1 or greater, will display fig, if 2, will save it also
 end
 
-if nargin<3, range = [1, num_calls];
+if nargin<3 
+    range = [1, num_calls];
 else
     [r,c] = size(range);
     if (r ~= 1) | (c ~= 2)

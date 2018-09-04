@@ -19,12 +19,12 @@ chnk2_Xi = roundsd(0.5*sec_length,3);
 chnk3_Xi = roundsd(0.8*sec_length,3);
 
 %let's figure out what the end of my chunks are...
-chnk1_start = chnk1_Xi * samp_freq;
-chnk1_end = chnk1_start + window_length;
-chnk2_start = chnk2_Xi * samp_freq;
-chnk2_end = chnk2_start + window_length;
-chnk3_start = chnk3_Xi * samp_freq;
-chnk3_end = chnk3_start + window_length;
+chnk1_start = round(chnk1_Xi * samp_freq);
+chnk1_end = round(chnk1_start + window_length);
+chnk2_start = round(chnk2_Xi * samp_freq);
+chnk2_end = round(chnk2_start + window_length);
+chnk3_start = round(chnk3_Xi * samp_freq);
+chnk3_end = round(chnk3_start + window_length);
 
 %and my endpoints, if you will...
 chnk1_Xf = chnk1_end * time_between;
@@ -37,8 +37,8 @@ chunk2 = song(chnk2_start:chnk2_end);
 chunk3 = song(chnk3_start:chnk3_end);
 
 %set up panel
-figure(1)
-caxis([-80 35])
+%figure(1)
+%caxis([-100 120])
 p = panel();
 % divvy it into two...
 p.pack(2, 1);
@@ -70,7 +70,7 @@ plot2 = subplot(2,3,4);
     ch=colorbar;
     pause(1);
     delete(ch);    
-    t2 = title('B');
+    t2 = title('E');
     set(t2, 'horizontalAlignment', 'right');
     set(t2, 'units', 'normalized');
     h1 = get(t2, 'position');
@@ -109,4 +109,3 @@ plot4 = subplot(2,3,6);
     set(t4, 'units', 'normalized');
     h1 = get(t4, 'position');
     set(t4, 'position', [0 h1(2) h1(3)]);
-
