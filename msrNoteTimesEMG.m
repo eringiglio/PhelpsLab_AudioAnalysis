@@ -1,6 +1,9 @@
-function [note_starts, note_ends, note_durs, INI] = msr_note_times(call, samp_rate, threshold, reset, INI_max);
-% function [note_starts, note_ends, note_durs, INI] = msr_note_times(call, samp_rate, threshold, reset, INI_max);
+function [note_starts, note_ends, note_durs, INI] = msr_note_timesEMG(song, samp_rate, threshold, reset, INI_max)
+% function [note_starts, note_ends, note_durs, INI] = msr_note_times(song, samp_rate, threshold, reset, INI_max);
 
+% This version of this program is designed to return the same values of the
+% original msr_note_times, but using a spectrograph of the song rather than
+% the raw song itself.
 
 % Check input arguments and assign defaults
 if nargin<5
@@ -8,23 +11,90 @@ if nargin<5
 end
 
 if (nargin<4)
-    reset=1;                %reset is time in msec that need to be subthreshold to be out of note
+    reset=10;                %reset is time in msec that need to be subthreshold to be out of note
 end
 
 if (nargin<3)
-    threshold = 8;          %number of standard deviations above background noise needed to detect call
+    threshold = 15;          %number of standard deviations above background noise needed to detect call
 end
 
 if (nargin<2)
     samp_rate = 195312.5;
 end
 
+fig = specgram(song, 512, samp_rate);
 
 %Define variables
-[r,c] = size(call);
-threshold = threshold*std(call(r-1000:r,1));
+[numRows,numCols] = size(fig); %This refers to row, columns--both useful!
+yAll = zeros(1,numCols);
+iAll = zeros(1,numCols); %Preallocating these matrices lets us save some computational time.
+
+%Note: In order to pull the indices back from these things and convert them to time or samples, here's the formula:
+% for SAMPLES, assuming $VALUE is what you're after
+% sample = $VALUE * numRows + iAll($VALUE) 
+% for TIME:
+% time = $VALUE * numRows / samp_rate;
+
+for j=1:numCols
+    [y,i] = max(abs(fig(:,j))); %This gives us respectively the loudest amplitude per column we look at--that is, the loudest frequency at each time slice within the song
+    yAll(1,j) = y;
+    iAll(1,j) = i;
+end
+
+%What's the standard deviation of these maxima? This is important to know for determining onset of song.
+threshold = threshold*std(yAll(1,numCols-500:numCols));
+
+% Where does the song begin?
+tops = find(yAll > threshold); %all indices above the threshold
+bottoms = find(yAll < threshold); %all indices below it
+
+%counters 
+inNote = 1;
+note_starts = [];
+R = 1;
+F = 1;
+lastLo = 1;
+lastHi = 1;
+rises = [];
+falls = [];
+j = 1;
+k = 1;
+
+for i=2:length(tops) %We want to compare each point to the previous, so we want to start with 2 instead of 1
+    i
+    thisRise = tops(i);
+    lastRise = tops(i-1);
+    if thisRise - lastRise == 1 % if the two values are consecutively above threhold...
+        inNote = 1; % for now, we're in a note
+        R = R+1; 
+    else 
+        R = 1;
+        inNote = 0; %reset the counter and go out of note if above threshold
+    end
+    if R == 5
+        rises(j) = tops(i-5); % Pull the first onset of this note from the beginning of the threshold and hold it
+        j = j+1;
+    end
+end
+
+newBottoms = find(bottoms>rises(1)); %Doesn't make sense to start looking for those before your song onset starts...
+for i=2:length(newBottoms)
+    thisFall = newBottoms(i);
+    lastFall = newBottoms(i-1);
+    if thisFall - lastFall == 1 %if you're still not in the note, hold onto the space you have between the spots
+        inNote = 0;
+        F = F+1;
+    else 
+        F = 1;
+        inNote = 1;
+    end
+    if R == 5 % if you have 5 consecutive columns not in a note...
+        falls(k) = newBottoms(i-5);
+        k = k+1;
+    end
+end
+
 reset = round(reset*samp_rate/1000); %define criteria (# subthreshold samples) for resetting note counter to being outside a note
-[call_dur, c] = size(call); %call_dur determines number of samples to cycle through
 B=1;                        %counts beginning of notes
 H=1;                        %suprathreshold counter
 E=1;                        %end note counter

@@ -1,5 +1,10 @@
-function [call_stats, call_stat_labels, all_notes_matrix, note_labels] = msr_all_AL(call, samp_rate, threshold, reset, time_code, curve_meth, INI_max, fig_on, BUTTfil_on, call_id)
-% 3-2016 TTB
+function [call_stats, call_stat_labels, all_notes_matrix_AL, note_labels] = msr_all_AL(call, samp_rate, threshold, reset, time_code, curve_meth, INI_max, fig_on, BUTTfil_on, call_id)
+% 9/18 - EMG added FM_slope calculation. This metric measures the slope of
+% frequency shifts from the final frequency of one note to the starting
+% frequency of the next; steeper should be higher quality. This is
+% consistent with Geoffrey Podos' frequency excursion metric; honestly,
+% more consistent than just adding the length of that line. 
+%3-2016 TTB
 % note: TTB added "arclength" & "FM_score" calculations and BUTTfil option.
 % input: [call_stats, call_stat_labels, all_notes_matrix, note_labels] = msr_all(call(saved from file), samp_rate, threshold, reset, time_code, curve_meth, INI_max, fig_on, call_id)
 %
