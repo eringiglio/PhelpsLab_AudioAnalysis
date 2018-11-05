@@ -13,5 +13,5 @@ if nargin < 7
   zBUS.FluishIO(1);
 end
 
-t = timer('TimerFcn',@(~,~)zBUS.zBusTrigA(0,0,5);
+t = timer('TimerFcn',@(~,~)zBUS.zBusTrigA(0,0,5));
 startat(t,2018,11,2,18,26,00);
