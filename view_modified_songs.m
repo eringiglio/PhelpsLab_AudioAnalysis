@@ -19,7 +19,7 @@ song_length = floor(file_length/num_songs);
 % Now plot songs in spectrogram form
 % -------------
 
-figure(randi(100))
+figure()
 for i=1:num_songs
     start = (i-1)*(song_length)+1;
     finish = i*song_length;
@@ -48,5 +48,5 @@ x = 0:time_between:(song_length-1)*time_between;
 
 %length(x) == length(y);
 
-figure(randi(100))
+figure()
 plot(x,y)
