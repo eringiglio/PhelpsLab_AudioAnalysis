@@ -13,5 +13,17 @@ if nargin < 7
   zBUS.FluishIO(1);
 end
 
-t = timer('TimerFcn',@(~,~)zBUS.zBusTrigA(0,0,5));
-startat(t,2018,11,2,18,26,00);
+raw = csvimport(csvfile);
+times = raw(2:21,:);
+
+[r,c] = size(times);
+
+for i=1:r
+    t(i) = timer('TimerFcn',@(~,~)zBUS.zBusTrigA(0,0,5));
+    y(i) = times{i,1};
+    mo(i) = times{i,2};
+    d(i) = times{i,3};
+    h(i) = times{i,4};
+    mi(i) = times{i,5};
+    s(i) = times{i,6};
+startat(t,y,mo,d,h,mi,s);

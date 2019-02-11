@@ -14,9 +14,9 @@ time_between = 1/samp_freq;
 sec_length = file_length * time_between;
 
 %Grab some windows, here, in seconds
-chnk1_Xi = roundsd(0.1*sec_length,3);
+chnk1_Xi = roundsd(0.09*sec_length,3);
 chnk2_Xi = roundsd(0.5*sec_length,3);
-chnk3_Xi = roundsd(0.8*sec_length,3);
+chnk3_Xi = roundsd(0.83*sec_length,3);
 
 %let's figure out what the end of my chunks are...
 chnk1_start = round(chnk1_Xi * samp_freq);
@@ -70,7 +70,7 @@ plot2 = subplot(2,3,4);
     ch=colorbar;
     pause(1);
     delete(ch);    
-    t2 = title('E');
+    t2 = title('B');
     set(t2, 'horizontalAlignment', 'right');
     set(t2, 'units', 'normalized');
     h1 = get(t2, 'position');

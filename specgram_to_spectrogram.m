@@ -1,4 +1,4 @@
-function [song,window,noverlap,nfft,Fs] = specgram_to_spectrogram(song,nfft,Fs)
+function [song,matrix] = specgram_to_spectrogram(song,nfft,Fs)
 % Notes on translating specgram (which is depreciating) to spectrogram for
 % future code wranglers. Please see M file itself for details. Otherwise,
 % this program will take the exact inputs that you used to use for specgram
@@ -32,5 +32,6 @@ noverlap = length(window)/2;
 % And here is the correct syntax for spectrogram vs specgram. Voila! If
 % specgram is ever depreciated, simply do a find and replace all for uses
 % of "specgram" with this program and everything should work fine again.
+matrix = spectrogram(song,window,noverlap,nfft,Fs,'yaxis');
 spectrogram(song,window,noverlap,nfft,Fs,'yaxis');
 caxis([-180 -20])
