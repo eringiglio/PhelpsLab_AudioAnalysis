@@ -1,6 +1,6 @@
 function [] = timed_fire(year,month,day,hour,minute,second,trigger,zBUS)
 % This function is designed to take an input of the dateTime and then fire
-%a ZBus A trigger that should generate the playout of a song.
+%a ZBus trigger that should generate the playout of a song. 'trigger' should be a parameter either 'A' or 'B' that specifies which trigger should be hit. 
 
 % Erin M Giglio, March 2019
 
