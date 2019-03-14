@@ -1,7 +1,8 @@
 function [] = timed_fire(year,month,day,hour,minute,second,zBUS)
 % This function is designed to take an input of the dateTime and then fire
 %a ZBus A trigger that should generate the playout of a song.
-% Erin M Giglio, 2018
+
+% Erin M Giglio, March 2019
 
 if nargin < 7
   zBUS = actxcontrol('ZBUS.x',[1,1,1,1]);
@@ -11,8 +12,8 @@ if nargin < 7
     e='unable to connect'
   end
   zBUS.FluishIO(1);
-end
 
+end
 raw = csvimport(csvfile);
 times = raw(2:21,:);
 
