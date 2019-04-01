@@ -14,12 +14,12 @@ close all; clear all; clc;
 % white amp. Each setup should therefore get a unique four-digit number. 
 % Known good barrel amp: 3. 
 %filePath = 'C:\Documents and Settings\LongLab\My Documents\Mouse Experiments\';
-filePath = 'C:\Users\Biosci\Desktop\LongLabPlayoutTests\Outputs\4461';
+filePath = 'C:\Users\Biosci\Desktop\Erin\StimuliTests\4-01_3_1';
 dataPath= filePath;
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170624\';
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170707\';
-RP = TDTRP('C:\Users\Biosci\Documents\sound chamber TDT\4Ch_RX8_Continuous_AcquireEMG.rcx','RX8','INTERFACE','GB');
-RecordingDur = 1*1*5; 
+RP = TDTRP('C:\Users\Biosci\Desktop\Github\RPvdsEx_Code\RX8 code\hardwareTest_EMG.rcx','RX8','INTERFACE','GB');
+RecordingDur = 1*1*10; 
 % User defined time in multiples of buffersize set in RPvdsEX program.
 % default buffer size is 1 minute@100k samples/s(see RPvdsEXprogram for details)
 FileSeperator = 60; %% In these many full_buffer_lengths create a new file
@@ -41,7 +41,15 @@ tooSlowCount=0;
 
 filePath3 = strcat(filePath, '.F32');
 f_ch3 = fopen(filePath3,'w');
-        
+
+%Set up timers for recording at specified intervals
+
+%csvs of times for timers specifying (here) when to play song (A) vs tone (B) stimuli
+timerA = 'C:\Users\Biosci\Desktop\Erin\IEG\exampleTrigger.csv';
+
+%triggering timers
+zBUS = time_fire_batch(timerA,'A',3);
+
 % main looping section
 for i = 1:RecordingDur
     if (mod(i,FileSeperator) == 1)
