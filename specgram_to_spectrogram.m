@@ -1,4 +1,4 @@
-function [song,matrix] = specgram_to_spectrogram(song,nfft,Fs)
+function [matrix] = specgram_to_spectrogram(song,Fs,nfft)
 % Notes on translating specgram (which is depreciating) to spectrogram for
 % future code wranglers. Please see M file itself for details. Otherwise,
 % this program will take the exact inputs that you used to use for specgram
@@ -19,12 +19,16 @@ function [song,matrix] = specgram_to_spectrogram(song,nfft,Fs)
 %     so...
 
 
-% I do need you to pass all three arguments, so if there are fewer, prompt
-% user to enter all.
+% Setting defaults for arguments. Note this program is set to default to
+% the maximum RX8 setting of sample rate. 
 if nargin<3                
-    error('Error: Please submit all three of the arguments you would previously have passed to specgram.')
+    nfft = 512;
 end
-    
+
+if nargin<2                
+    Fs = 97656.25;
+end
+
 % These, of course, are the default values used by spectrogram...
 window = hanning(nfft);
 noverlap = length(window)/2;
