@@ -22,7 +22,7 @@ if (nargin<2)
     samp_rate = 195312.5;
 end
 
-fig = specgram(song, 512, samp_rate);
+fig = specgram_to_spectrogram(song, 512, samp_rate);
 
 %Define variables
 [numRows,numCols] = size(fig); %This refers to row, columns--both useful!
