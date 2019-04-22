@@ -15,9 +15,10 @@ if nargin < 8
 end
 
 if trigger == 'A'
-  t = timer('TimerFcn',@(~,~)zBUS.zBusTrigA(0,0,5));
+  t = timer('TimerFcn',@(~,~)zBUS.zBusTrigA(0,0,2));
 elseif trigger == 'B'
-  t = timer('TimerFcn',@(~,~)zBUS.zBusTrigB(0,0,5));
+  t = timer('TimerFcn',@(~,~)zBUS.zBusTrigB(0,0,2));
 else
   error('Please enter A or B for trigger.')
+end
 startat(t,year,month,day,hour,minute,second);
