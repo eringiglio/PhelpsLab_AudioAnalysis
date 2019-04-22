@@ -24,23 +24,23 @@ figure
 for i=1:num_songs
 	thisSong = songList(:,i);
     if num_songs == 1
-        specgram(thisSong, 512, samp_freq);
+        specgram_to_spectrogram(thisSong, 512, samp_freq);
 %        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
         caxis([-100 20])
     elseif num_songs <= 4
-        subplot (4, 1, i), specgram(thisSong, 512, samp_freq);
+        subplot (4, 1, i), specgram_to_spectrogram(thisSong, 512, samp_freq);
 %        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
         caxis([-100 20])
     elseif num_songs <= 6
-        subplot (6, 1, i), specgram(thisSong, 512, samp_freq);
+        subplot (6, 1, i), specgram_to_spectrogram(thisSong, 512, samp_freq);
 %        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
         caxis([-100 20])
     elseif num_songs <= 8
-        subplot (4, 2, i), specgram(thisSong, 512, samp_freq);
+        subplot (4, 2, i), specgram_to_spectrogram(thisSong, 512, samp_freq);
 %        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
         caxis([-100 20])
     elseif num_songs <= 12
-        subplot (6, 2, i), specgram(thisSong, 512, samp_freq);
+        subplot (6, 2, i), specgram_to_spectrogram(thisSong, 512, samp_freq);
 %        title(strcat(fileList(1,i), "    |    Quality Score : ", string(fileList(2,i))),'Interpreter','none')
         caxis([-100 20])
     elseif num_songs > 12
