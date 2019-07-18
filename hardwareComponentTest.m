@@ -18,7 +18,7 @@ close all; clear all; clc;
 %csvs of times for timers specifying (here) when to play song (A) vs tone (B) stimuli
 timerA = 'C:\Users\Biosci\Desktop\Erin\IEG\exampleTrigger.csv';
 
-filePath = 'C:\Users\Biosci\Desktop\Erin\StimuliTests\6-03_5';
+filePath = 'C:\Users\Biosci\Desktop\Sam\StimuliTest\6-19_3';
 dataPath= filePath;
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170624\';
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170707\';
