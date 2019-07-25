@@ -12,7 +12,7 @@ close all; clear all; clc;
 % m is the number of each microphone, g is the number of the gooseneck amp,
 % b is the number of the barrel amp in use, and a is the number of the
 % white amp. Each setup should therefore get a unique four-digit number. 
-% Known good barrel amp: 3. 
+% Known good barrel amp: 2. 
 %filePath = 'C:\Documents and Settings\LongLab\My Documents\Mouse Experiments\';
 filePath = 'C:\Users\Biosci\Desktop\Erin\StimuliTests\4-01_3_1';
 dataPath= filePath;
@@ -43,9 +43,6 @@ filePath3 = strcat(filePath, '.F32');
 f_ch3 = fopen(filePath3,'w');
 
 %Set up timers for recording at specified intervals
-
-%csvs of times for timers specifying (here) when to play song (A) vs tone (B) stimuli
-timerA = 'C:\Users\Biosci\Desktop\Erin\IEG\exampleTrigger.csv';
 
 %triggering timers
 zBUS = time_fire_batch(timerA,'A',3);
