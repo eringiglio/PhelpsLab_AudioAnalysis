@@ -1,4 +1,4 @@
-function [new_stim] = downsample(stimulus, new_rate, old_rate, method)
+function [new_stim] = downsampleSMP(stimulus, new_rate, old_rate, method)
 
 if nargin<4, method = 'avg'; end
 
