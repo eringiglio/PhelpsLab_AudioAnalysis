@@ -8,6 +8,6 @@ stim = read_songs(oldFile,195312.5);
 
 newStim = downsample(stim,97656.25,195312.5);
 
-newFileName = strcat('C:\Users\Biosci\Documents\sound chamber TDT\RX8_stimuli\5_stim\',oldFile);
+newFileName = strcat('C:\Users\Biosci\Documents\sound chamber TDT\RX8_stimuli\testStim\',oldFile);
 
 write_songs(newFileName,newStim);
