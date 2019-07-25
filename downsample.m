@@ -9,6 +9,7 @@ j=1;
 for i=1:step_sz:stim_sz
     if method == 'avg'
         end_step = i + step_sz - 1;
+        end_step = min(end_step,stim_sz);
         new_stim(j,1)=mean(stimulus(i:end_step,1));
     else
         new_stim(j,1)=stimulus(i,1);

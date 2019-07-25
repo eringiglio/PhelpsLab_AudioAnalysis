@@ -9,6 +9,8 @@ end
 songs = fread(fid, 'float32');
 [file_length,c] = size(songs);
 
+fclose(fid);
+
 % define default number of bins in the sample (number of songs = bins)
 if nargin<3                
     num_songs=1;
