@@ -1,4 +1,4 @@
-function [startOutputs,startOutputs_labels] = findPlaybackSongs(fileName,samp_freq,threshold,timestamp,filtered)
+function [startOutputs,startOutputs_labels,song] = findPlaybackSongs(fileName,samp_freq,threshold,timestamp,filtered)
 
 %This function exists to help me find the beginnings of all songs within a
 %60-min recording of a single singing mouse, complete with playbacks. Song
@@ -72,7 +72,8 @@ if timestamp == 'y'
     min = str2num(fileName(fin-8:fin-7));
     sec = str2num(fileName(fin-5:fin-4));
 elseif timestamp == 'n'
-    sequence = fileName(1:8);
+    fin = length(fileName);
+    sequence = fileName(1:fin-13);
     hour = 0;
     min = 0;
     sec = 0;
@@ -80,11 +81,13 @@ else
     error("please enter a value of 'yes' or 'no' for the 'timestamp' parameter")
 end
 
+startOutputs_labels = char('idSequence','h','m','s','sample');
+
 %This downsamples the song to about 100x as few samples as it originally
 %had. This really, REALLY saves processing time and has the advantage of
 %lumping all the energy within the song and smearing it across a whole
 %bunch of frequencies.
-dsSong = downsample(song,1000,samp_freq);
+dsSong = downsampleSMP(song,1000,samp_freq);
 
 %We are going to use the spectrograms to identify songs, not the actual
 %.f32 recording as Steve has traditionally done. This is be much less
@@ -107,20 +110,27 @@ threshold = mean(absSpectro) + threshold*std(absSpectro);
 %figure of time vs. the power of the spectrogram, go ahead and uncomment
 %these lines. 
 %figure()
-%specLen = length(absSpectro);
-%dsLen = length(dsSong);
+specLen = length(absSpectro);
+dsLen = length(dsSong);
 %y = absSpectro;
-%x = 0:dsLen/(specLen*1000):(dsLen/1000);
-%x = x(1:specLen);
+x = 0:dsLen/(specLen*1000):(dsLen/1000);
+x = x(1:specLen);
 %plot(x,y)
 
 %grab all indices where the downsampled song rises above a set threshold
 k = find(absSpectro > threshold);
 
+%if there are no indices, return empty set--and finish the whole thing early because the heck with this...
+if isempty(k) == 1
+    "no songs found"
+    startOutputs = [];
+    song = [];
+    return
+end
 %This is doing some housekeeping for the for loop we're about to set up.
 %startsList 
 startsList = [];
-list(1) = k(1);
+startsList(1) = k(1);
 C = 2;
 
 %Go through those indices of the spectrogram and grab the ones that aren't
@@ -137,7 +147,6 @@ end
 songStartTimes = zeros(length(startsList),1);
 secsPast = zeros(length(startsList),1);
 startOutputs = cell(length(startsList),5);
-startOutputs_labels = char('idSequence','h','m','s','sample');
 
 for i=1:length(startsList)
     thisIndex = startsList(i);
@@ -146,7 +155,7 @@ for i=1:length(startsList)
     % here we want to translate that time in seconds into something in
     % samples so you can trim it quickly and save the file
     thisSongStart = thisSec * samp_freq;
-    secsPast(i) = thisSec;o
+    secsPast(i) = thisSec;
     songStartTimes(i) = thisSongStart;
     %And last of all we want a list of actual timestamps...
     newSec = rem(thisSec,60);

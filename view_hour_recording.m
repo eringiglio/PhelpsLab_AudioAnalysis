@@ -23,7 +23,6 @@ for i=1:6
     specgram(thisSong, 512, samp_freq);
     caxis([-100 20])
 end
-linkaxes([fig1{1},fig1{2},fig1{3},fig1{4},fig1{5},fig1{6}],'xy')
 
 fig2 = {};
 figure
@@ -32,5 +31,5 @@ for i=1:6
     fig2{i} = subplot (6, 1, i);
     oscillogram(thisSong, samp_freq);
 end
-linkaxes([fig2{1},fig2{2},fig2{3},fig2{4},fig2{5},fig2{6}],'xy')
+linkaxes([fig2{1},fig2{2},fig2{3},fig2{4},fig2{5},fig2{6}],'y')
 
