@@ -54,7 +54,7 @@ fileList = csvimport(csvFile);
 
 for i=1:length(fileList)
     fileList(i)
-    [outputTable,~,song] = findPlaybackSongs(fileList{i},samp_freq,threshold,timestamp,filtered); 
+    [outputTable,~,song] = findPlaybackSongs(fileList{i},samp_freq,timestamp,filtered); 
     if isempty(outputTable) == 1
         continue
     end
