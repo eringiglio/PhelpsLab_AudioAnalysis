@@ -104,7 +104,7 @@ dsSpectro = specgram(dsSong, 512, 1000);
 %deviations above that mean," so we have a line where any peaks above that
 %line are almost certainly songs. 
 absSpectro = mean(abs(dsSpectro));
-threshold = mean(absSpectro) + threshold*std(absSpectro);
+threshold = 0.01; %mean(absSpectro) + threshold*std(absSpectro);
 
 %Commented the line specifying the figure out, but if you want to see the
 %figure of time vs. the power of the spectrogram, go ahead and uncomment
@@ -112,10 +112,10 @@ threshold = mean(absSpectro) + threshold*std(absSpectro);
 %figure()
 specLen = length(absSpectro);
 dsLen = length(dsSong);
-%y = absSpectro;
+% y = absSpectro;
 x = 0:dsLen/(specLen*1000):(dsLen/1000);
 x = x(1:specLen);
-%plot(x,y)
+% plot(x,y)
 
 %grab all indices where the downsampled song rises above a set threshold
 k = find(absSpectro > threshold);
