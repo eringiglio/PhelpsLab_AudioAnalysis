@@ -1,4 +1,4 @@
-function [startOutputs,startOutputs_labels] = findPlaybackSongs_batch(csvFile,samp_freq,threshold,timestamp,filtered)
+function [startOutputs,startOutputs_labels] = findPlaybackSongs_batch(csvFile,samp_freq,timestamp,filtered)
 
 %This is a batch processing file intended to identify song content from a
 %list of files input from a CSV. Your CSV should be a single list of names
@@ -10,7 +10,7 @@ function [startOutputs,startOutputs_labels] = findPlaybackSongs_batch(csvFile,sa
 %yet, I recommend inputting 'n' for this argument. It will increase the
 %runtime and resources but will also make identifying songs much easier and
 %more effective.
-if nargin <5 
+if nargin <4
     filtered = 'y';
 end
 
@@ -26,16 +26,16 @@ end
 %This is primarily used so that when you take these later to go back over
 %the 48h pre-playback recordings, you know exactly which hour-long files to
 %pull each recorded song out of. 
-if nargin<4
+if nargin<3
     timestamp = 'n';
 end
 
 %threshold = the number of standard deviations in the overall recording
 %file to count beyond the mean in order to identify a song. 8 should be
 %more than sufficient, but if you need to vary this, it's here.
-if nargin<3
-    threshold = 8;
-end
+% if nargin<3
+%     threshold = 8;
+% end
 
 %If you're working with RX6 data, you'll want your sampling frequency to be
 %different. The default for this routine is to use the maximum sampling
