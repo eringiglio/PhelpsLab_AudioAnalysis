@@ -46,8 +46,10 @@ end
 
 %--------------
 
-outFile = '/home/erin/Documents/MATLAB/leptinIEG/batchPlaybacks/';
+outFile = '/scratch/02985/emg2497/leptinIEG/batchOutputs/7-22-19/';
 fileList = csvimport(csvFile);
+diaryFile = strcat(outFile,'diary.txt');
+diary diaryFile;
 
 %call write_playbackSongs while you're at it once you've got the output file,
 %really....
@@ -59,6 +61,8 @@ for i=1:length(fileList)
         continue
     end
     write_playbackSongs(outputTable,song,outFile);
-    tableName = strcat(outFile,outputTable{1,1},'_songTimes.csv');
-    writecell(outputTable,tableName); %this file works best for writing structured matrices to csvs
+    tableName = strcat(outFile,outputTable{1,1},'_',string(i),'_songTimes.csv');
+    writecell(outputTable,tableName); %this routine works best for writing structured matrices to csvs
 end
+
+diary off;
