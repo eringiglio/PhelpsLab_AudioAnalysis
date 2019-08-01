@@ -17,9 +17,9 @@ end
 nameRoot = outputTable{1,1};
 
 for i=1:r
-    newFile = strcat(outFile,nameRoot,'_',string(i),'.F32');
+    newName = strcat(outFile,nameRoot,'_',string(i),'.F32');
     songStart = outputTable{i,5} - 1000000;
     songEnd = outputTable{i,5} + 2000000;
     newBit = song(songStart:songEnd);
-    write_songs(newFile,newBit);
+    write_songs(newName,newBit);
 end
