@@ -14,8 +14,6 @@ if nargin<2
     samp_freq = 195312.5;
 end
 
-song_length = floor(file_length/num_songs);
-
 %
 % -------------
 % Now plot songs in spectrogram form
