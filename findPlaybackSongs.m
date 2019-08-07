@@ -51,9 +51,9 @@ end
 %machine. If the recording has been filtered already (default), it just
 %reads the song from the filename.
 if filtered == 'y'
-    song = read_songs(fileName,samp_freq);
+    song = read_songs(fileName);
 elseif filtered == 'n'
-    rawsong = read_songs(fileName,samp_freq);
+    rawsong = read_songs(fileName);
     song = rx8Filter(rawsong);
 else
     error("please enter a value of 'yes' or 'no' for the 'filtered' parameter")
@@ -67,13 +67,13 @@ end
 %but in batch runs I highly recommend using this feature. 
 if timestamp == 'y'
     fin = length(fileName);
-    sequence = str2num(fileName(fin-16:fin-13));
+    sequence = fileName(1:fin-13);
     hour = str2num(fileName(fin-11:fin-10));
     min = str2num(fileName(fin-8:fin-7));
     sec = str2num(fileName(fin-5:fin-4));
 elseif timestamp == 'n'
     fin = length(fileName);
-    sequence = fileName(1:fin-13);
+    sequence = fileName(1:fin-15);
     hour = 0;
     min = 0;
     sec = 0;
