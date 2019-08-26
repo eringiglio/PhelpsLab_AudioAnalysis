@@ -65,7 +65,7 @@ if BUTTfil_on == 1 % filter call with butterworth filter
 % Measure note number, onset and offset, trim "call" to just those samples within call.
 %----------------------------------------------
 [note_starts, note_ends, note_durs, INI] = msr_note_times(call,samp_rate,threshold,reset);
-%[note_num,c] = size(note_ends);
+[note_num,c] = size(note_ends);
 
 %a = ceil(note_starts(1,1)*samp_rate/1000);
 %b = floor(note_ends(note_num,1)*samp_rate/1000);
@@ -74,6 +74,9 @@ if BUTTfil_on == 1 % filter call with butterworth filter
 %note_ends = note_ends - note_starts(1,1);
 %note_starts = note_starts - note_starts(1,1) + 1000/samp_rate;
 
+if note_num == 1
+    return
+end
 
 % Measure attributes of whole call. Each of these measures is a scalar.
 %----------------------------------------------
