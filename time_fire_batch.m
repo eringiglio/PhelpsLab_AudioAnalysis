@@ -41,5 +41,5 @@ for i=1:r
     else
         error('Please enter A for zBusA trigger or B for zbusB trigger on your timer file.')
     end
-    startat(t,y,mo,d,h,mi,s);
 end
+startat(t,y,mo,d,h,mi,s);

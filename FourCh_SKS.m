@@ -7,33 +7,21 @@ close all; clear all; clc;
 % USER DEFINED PARAM BLOCK
 % filePath - set this to wherever the examples are stored
 %filePath = 'C:\Documents and Settings\LongLab\My Documents\Mouse Experiments\';
-timerA = 'C:\Users\Biosci\Desktop\Sam\DREADD_pilot\pre-surgery\timer_files\6-19-19A.csv';
-timerB = 'C:\Users\Biosci\Desktop\Sam\DREADD_pilot\pre-surgery\timer_files\6-19-19B.csv';
-filePath = 'C:\Users\Biosci\Desktop\Sam\DREADD_pilot\pre-surgery\raw_outputs\6-19-19\6-19_';
+timerList = 'C:\Users\Biosci\Desktop\Sam\DREADD_pilot\post-surgery\timer_files\8-2-19.csv';
+filePath = 'C:\Users\Biosci\Desktop\Sam\DREADD_pilot\post-surgery\raw_outputs\8-01-19\8-01_';
 dataPath= filePath;
+diary 'C:\Users\Biosci\Desktop\Sam\DREADD_pilot\post-surgery\raw_outputs\8-01-19\diary.txt'; % saving command window outputs for debugging later
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170624\';
 %dataPath =
 %'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170707\';   
 RP = TDTRP('C:\Users\Biosci\Documents\sound chamber TDT\4Ch_RX8_indTriggerEMG.rcx','RX8','INTERFACE','GB');
-RecordingDur = 1*24*60; 
+RecordingDur = 1*22*60; 
 % User defined time in multiples of buffersize set in RPvdsEX program.
 % default buffer size is 1 minute@100k samples/s(see RPvdsEXprogram for details)
 FileSeperator = 60; % 60; %% In these many full_buffer_lengths create a new file
 %-------------------------------------------------------------------------------------------------------
-
-%Connect to the zBUS to minimize conflicts
-zBUS = actxcontrol('ZBUS.x',[1,1,1,1]);
-if zBUS.ConnectZBUS('GB')
-    e = 'connected'
-else
-    e = 'unable to connect'
-end
-
-zBUS.FlushIO(1);
-
 %Set up the playout systems
-time_fire_batch(timerA,'A',20,zBUS);
-time_fire_batch(timerB,'B',20,zBUS);
+time_fire_batch(timerList);
 
 % size of the entire serial buffer
 npts = RP.GetTagSize('3dataout');  %% Buffersize is set to 1 min currently.
