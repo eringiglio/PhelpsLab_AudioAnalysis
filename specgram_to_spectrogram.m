@@ -38,6 +38,6 @@ noverlap = length(window)/2;
 % of "specgram" with this program and everything should work fine again.
 matrix = spectrogram(song,window,noverlap,nfft,Fs,'yaxis');
 spectrogram(song,window,noverlap,nfft,Fs,'yaxis');
-colormap(jet)
-% colorbar('off')
-% caxis([-180 -20])
+colormap(jet(20))
+colorbar('off')
+caxis([-180 -20])

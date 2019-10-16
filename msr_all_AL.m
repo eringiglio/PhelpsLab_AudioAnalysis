@@ -53,7 +53,7 @@ if nargin < 8, fig_on = 0; end
 if nargin < 7, INI_max = 200; end
 if nargin < 6, curve_meth = 'q'; end
 if nargin < 5, time_code = 'note'; end
-if nargin < 4, reset = 10; end
+if nargin < 4, reset = 5; end
 if nargin < 3, threshold = 8; end
 if nargin < 2, samp_rate = 195312.5; end % use 97656.25 for sample rate for RX8
 
@@ -65,7 +65,7 @@ if BUTTfil_on == 1 % filter call with butterworth filter
 % Measure note number, onset and offset, trim "call" to just those samples within call.
 %----------------------------------------------
 [note_starts, note_ends, note_durs, INI] = msr_note_times(call,samp_rate,threshold,reset);
-%[note_num,c] = size(note_ends);
+[note_num,c] = size(note_ends);
 
 %a = ceil(note_starts(1,1)*samp_rate/1000);
 %b = floor(note_ends(note_num,1)*samp_rate/1000);
@@ -74,6 +74,9 @@ if BUTTfil_on == 1 % filter call with butterworth filter
 %note_ends = note_ends - note_starts(1,1);
 %note_starts = note_starts - note_starts(1,1) + 1000/samp_rate;
 
+if note_num == 1
+    return
+end
 
 % Measure attributes of whole call. Each of these measures is a scalar.
 %----------------------------------------------
@@ -91,7 +94,7 @@ if BUTTfil_on == 1 % filter call with butterworth filter
 rowlength = size(all_notes_matrix,1);
 arclength = zeros(rowlength,1); % empty vector to add values to
 
-for i = 1:size(all_notes_matrix,1);
+for i = 1:size(all_notes_matrix,1)
     t1 = all_notes_matrix(i,1); % note.starts
     t2 = all_notes_matrix(i,2); % note.ends
     FMa = all_notes_matrix(i,18);

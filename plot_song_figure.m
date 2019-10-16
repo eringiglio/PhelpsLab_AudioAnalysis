@@ -1,6 +1,6 @@
 function[song, chunk1, chunk2, chunk3] = plot_song_figure(song, samp_freq)
 
-[file_length,c] = size(song);
+[file_length,~] = size(song);
 % define default sample frequency
 if nargin<2
     samp_freq = 195312.5;
@@ -37,7 +37,7 @@ chunk2 = song(chnk2_start:chnk2_end);
 chunk3 = song(chnk3_start:chnk3_end);
 
 %set up panel
-%figure(1)
+figure()
 %caxis([-100 120])
 p = panel();
 % divvy it into two...
@@ -48,8 +48,9 @@ plot1 = subplot(2,3,1:3);
     spectrogram(song,512,256,512,samp_freq);
     view(90,-90)
     ylabel('Time (seconds)')
-    xlabel('Frequency (Hz)')
-    %caxis([-80 35])
+    xlabel('Frequency (kHz)')
+    caxis([-200 -30])
+    colormap('jet');
     ch=colorbar;
     pause(1);
     delete(ch);    
@@ -65,8 +66,8 @@ plot2 = subplot(2,3,4);
     Ylim = get(gca, 'xlim');
 %    set(gca, 'XTick', linspace(Xlim(1), Xlim(2), 3));
     set(gca, 'YTicklabel', roundsd(chnk1_Xi,1):0.05:roundsd(chnk1_Xf,1));
-    xlabel('Frequency (Hz)')
-    %caxis([-80 35])
+    xlabel('Frequency (kHz)')
+    caxis([-200 -30])
     ch=colorbar;
     pause(1);
     delete(ch);    
@@ -83,15 +84,10 @@ plot3 = subplot(2,3,5);
     set(gca, 'YTicklabel', roundsd(chnk2_Xi,2):0.05:roundsd(chnk2_Xf,2))
     xlabel('')
     set(gca, 'XTicklabel',{' '});
-    %caxis([-80 35])
+    caxis([-200 -30])
     ch=colorbar;
     pause(1);
     delete(ch);    
-        t3 = title('C');
-    set(t3, 'horizontalAlignment', 'right');
-    set(t3, 'units', 'normalized');
-    h1 = get(t3, 'position');
-    set(t3, 'position', [0 h1(2) h1(3)]);
 plot4 = subplot(2,3,6);
     spectrogram(chunk3,512,256,512,samp_freq);
     view(90,-90)
@@ -100,12 +96,7 @@ plot4 = subplot(2,3,6);
     set(gca, 'YTicklabel', roundsd(chnk3_Xi,2):0.05:roundsd(chnk3_Xf,2));
     xlabel('')
     set(gca, 'XTicklabel',[]);
-    %caxis([-80 35])    
+    caxis([-200 -30])
     ch=colorbar;
     pause(1);
     delete(ch);    
-    t4 = title('D');
-    set(t4, 'horizontalAlignment', 'right');
-    set(t4, 'units', 'normalized');
-    h1 = get(t4, 'position');
-    set(t4, 'position', [0 h1(2) h1(3)]);

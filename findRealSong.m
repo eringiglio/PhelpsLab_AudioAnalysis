@@ -1,4 +1,4 @@
-function[loudSong,ID] = findRealSong(song1,song2,samp_freq)
+function[loudSong,ID] = findRealSong(songA,songB)
 
 % define default sample frequency
 if nargin<3
@@ -6,8 +6,8 @@ if nargin<3
 end
 
 %read songs
-songA = read_songs(song1,samp_freq);
-songB = read_songs(song2,samp_freq);
+%songA = read_songs(song1,samp_freq);
+%songB = read_songs(song2,samp_freq);
 
 %determine which is louder
 

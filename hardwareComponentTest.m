@@ -14,11 +14,7 @@ close all; clear all; clc;
 % white amp. Each setup should therefore get a unique four-digit number. 
 % Known good barrel amp: 2. 
 %filePath = 'C:\Documents and Settings\LongLab\My Documents\Mouse Experiments\';
-
-%csvs of times for timers specifying (here) when to play song (A) vs tone (B) stimuli
-timerA = 'C:\Users\Biosci\Desktop\Erin\IEG\exampleTrigger.csv';
-
-filePath = 'C:\Users\Biosci\Desktop\Sam\StimuliTest\6-19_3';
+filePath = 'C:\Users\Biosci\Desktop\Erin\StimuliTests\4-01_3_1';
 dataPath= filePath;
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170624\';
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170707\';
