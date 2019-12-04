@@ -1,25 +1,23 @@
-  function [zBUS] = time_fire_batch(csvFile,numTriggers,zBUS)
+  function [zBUS] = time_fire_batch(csvFile,numTriggers)
 
 %This function takes a csv file and passes the times listed inside to timed_fire in order to create a list of playout fires (zBUS A triggers) for two chambers as specified in a paired RPvdsEx program. It also takes 'trigger' which should be either A or B, depending on which chamber you intend to trigger.
-if nargin < 4
-  zBUS = actxcontrol('ZBUS.x',[1,1,1,1]);
-  if zBUS.ConnectZBUS('GB')
+zBUS = actxcontrol('ZBUS.x',[1,1,1,1]);
+if zBUS.ConnectZBUS('GB')
     e = 'connected'
-  else
+else
     e='unable to connect'
-  end
-  zBUS.FlushIO(1);
 end
+zBUS.FlushIO(1);
 
 raw = csvimport(csvFile);
 
-if nargin < 3
+if nargin < 2
     numTriggers = length(raw) - 1;
 end
 
 times = raw(2:numTriggers+1,:);
 
-[r,c] = size(times);
+[r,~] = size(times);
 
 for i=1:r
     if string(times(i,7)) == "A"
