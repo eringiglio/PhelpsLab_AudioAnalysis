@@ -6,24 +6,25 @@ function [song] = makeHourRecord(samp_freq)
 %pasting them together to fit. 
 %  - EMG 5/25/19
 
-
 % define default number of bins in the sample (number of songs = bins)
 if nargin<1
     samp_freq = 195312.5/2;
 end
 
-file1 = read_songs('7-22_ch6_2641_10_37_37.F32',samp_freq);
-file2 = read_songs('7-22_ch6_2701_11_39_03.F32',samp_freq);
+clear file1; clear file2; clear song
+
+file1 = read_songs('12-15-19_ch6_2521_10_23_02.F32');
+file2 = read_songs('12-15-19_ch6_2581_11_24_28.F32');
 
 file1 = rx8Filter(file1);
 file2 = rx8Filter(file2);
 
-secondsTrimmed = 22*60+33;
+secondsTrimmed = 36*60+58;
 
 samples = round(secondsTrimmed * samp_freq);
 
 song = file1(samples:360000000);
 song(360000001-samples:360000000) = file2(1:samples);
 
-write_songs('7-22_ch6_playback.F32',song);
+write_songs('12-17_ch6_playback.F32',song);
 

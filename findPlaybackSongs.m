@@ -73,7 +73,7 @@ if timestamp == 'y'
     sec = str2num(fileName(fin-5:fin-4));
 elseif timestamp == 'n'
     fin = length(fileName);
-    sequence = fileName(1:fin-15);
+    sequence = fileName(1:fin-13);
     hour = 0;
     min = 0;
     sec = 0;
@@ -104,7 +104,7 @@ dsSpectro = specgram(dsSong, 512, 1000);
 %deviations above that mean," so we have a line where any peaks above that
 %line are almost certainly songs. 
 absSpectro = mean(abs(dsSpectro));
-threshold = 0.01; %mean(absSpectro) + threshold*std(absSpectro);
+threshold = mean(absSpectro) + 10*std(absSpectro);
 
 %Commented the line specifying the figure out, but if you want to see the
 %figure of time vs. the power of the spectrogram, go ahead and uncomment

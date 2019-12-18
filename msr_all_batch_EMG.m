@@ -1,4 +1,4 @@
-function [call_list, parameters, call_stats, call_stat_labels, note_labels] = msr_all_batch(xl_file, output_file, range, anal_param, methods)
+function [call_list, parameters, call_stats, call_stat_labels, note_labels] = msr_all_batch_EMG(xl_file, output_file, range, anal_param, methods)
 
 % [call_list, parameters, call_stats, call_stat_labels, note_labels] = msr_all_batch(xl_file, output_file, range, anal_param, methods)
 

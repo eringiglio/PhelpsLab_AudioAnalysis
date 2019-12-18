@@ -16,7 +16,7 @@ if nargin<2
     samp_freq = 195312.5;
 end
 
-[song_length,c] = size(song);
+[song_length,~] = size(song);
 
 time_between = 1/samp_freq;
 %define Y axis

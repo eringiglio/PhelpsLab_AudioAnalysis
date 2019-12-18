@@ -46,7 +46,7 @@ end
 
 %--------------
 
-outFile = '/scratch/02985/emg2497/leptinIEG/batchOutputs/7-22-19/';
+outFile = '/scratch/02985/emg2497/leptinIEG/batchOutputs/';
 fileList = csvimport(csvFile);
 diaryFile = strcat(outFile,'diary.txt');
 diary diaryFile;
