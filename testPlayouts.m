@@ -1,4 +1,4 @@
-% Two-channel continuous acquire example using a serial buffer
+  % Two-channel continuous acquire example using a serial buffer
 % This program writes to the buffer once it has cyled halfway through
 % (double-buffering)
 
@@ -7,11 +7,11 @@ close all; clear all; clc;
 % USER DEFINED PARAM BLOCK
 % filePath - set this to wherever the examples are stored
 %filePath = 'C:\Documents and Settings\LongLab\My Documents\Mouse Experiments\';
-filePath = 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\10-09-19\T1';
+filePath = 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\12-04-19\T';
 dataPath= filePath;
-diary 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\10-09-19\diary.txt'; % saving command window outputs for debugging later
+diary 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\12-04-19\diary.txt'; % saving command window outputs for debugging later
 %'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170707\';   
-RP = TDTRP('C:\Users\Biosci\Documents\sound chamber TDT\1Ch_RX8_indTriggerEMG.rcx','RX8','INTERFACE','GB');
+RP = TDTRP('C:\Users\Biosci\Desktop\Github\RPvdsEx_Code\1Ch_RX8_indTriggerEMG.rcx','RX8','INTERFACE','GB');
 RecordingDur = 5; %*60; 
 % User defined time in multiples of buffersize set in RPvdsEX program.
 % default buffer size is 1 minute@100k samples/s(see RPvdsEXprogram for details)

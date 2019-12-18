@@ -8,21 +8,21 @@ close all; clear all; clc;
 % filePath - set this to wherever the examples are stored
 %filePath = 'C:\Documents and Settings\LongLab\My Documents\Mouse Experiments\';
 timerList = 'C:\Users\Biosci\Desktop\Erin\IEG\timer_files\12-04-19.csv';
-filePath = 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\12-04-19\12-04-19_';
+filePath = 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\12-04-19\T12-02-19_';
 dataPath= filePath;
 diary 'C:\Users\Biosci\Desktop\Erin\IEG\raw_outputs\12-04-19\diary.txt'; % saving command window outputs for debugging later
 %dataPath = 'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170624\';
 %dataPath =
 %'S:\Archive\Daniel\MouseSong\RawData\M024\Playback\MATLAB\170707\';   
 RP = TDTRP('C:\Users\Biosci\Documents\sound chamber TDT\4Ch_RX8_indTriggerEMG.rcx','RX8','INTERFACE','GB');
-RecordingDur = 45*60; 
+RecordingDur = 5; %45*60; 
 % User defined time in multiples of buffersize set in RPvdsEX program.
 % default buffer size is 1 minute@100k samples/s(see RPvdsEXprogram for details)
 FileSeperator = 60; %% In these many full_buffer_lengths create a new file
 %-------------------------------------------------------------------------------------------------------
    
 %Set up the playout systems
-zBUS = time_fire_batch(timerList);
+zBUS = time_fire_test();
 
 % size of the entire serial buffer
 npts = RP.GetTagSize('3dataout');  %% Buffersize is set to 1 min currently.
