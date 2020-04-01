@@ -46,7 +46,7 @@ end
 
 %--------------
 
-outFile = '/scratch/02985/emg2497/leptinIEG/batchOutputs/';
+outFile = '/home/erin/Documents/Research/IEG/preplay_recordings/batchOutputs/';
 fileList = csvimport(csvFile);
 diaryFile = strcat(outFile,'diary.txt');
 diary diaryFile;
@@ -60,7 +60,7 @@ for i=1:length(fileList)
     if isempty(outputTable) == 1
         continue
     end
-    write_playbackSongs(outputTable,song,outFile);
+    newName = write_playbackSongs(outputTable,song,outFile);
     tableName = strcat(outFile,outputTable{1,1},'_',string(i),'_songTimes.csv');
     writecell(outputTable,tableName); %this routine works best for writing structured matrices to csvs
 end

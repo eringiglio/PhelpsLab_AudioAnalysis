@@ -38,10 +38,11 @@ chunk3 = song(chnk3_start:chnk3_end);
 
 %set up panel
 figure()
-%caxis([-100 120])
 p = panel();
 % divvy it into two...
 p.pack(2, 1);
+
+colorscheme = customcolormap_preset('pasteljet');
 
 % big plot
 plot1 = subplot(2,3,1:3);
@@ -49,8 +50,8 @@ plot1 = subplot(2,3,1:3);
     view(90,-90)
     ylabel('Time (seconds)')
     xlabel('Frequency (kHz)')
-    caxis([-200 -30])
-    colormap('jet');
+%    caxis([-200 -30])
+    colormap(colorscheme);
     ch=colorbar;
     pause(1);
     delete(ch);    
@@ -67,7 +68,7 @@ plot2 = subplot(2,3,4);
 %    set(gca, 'XTick', linspace(Xlim(1), Xlim(2), 3));
     set(gca, 'YTicklabel', roundsd(chnk1_Xi,1):0.05:roundsd(chnk1_Xf,1));
     xlabel('Frequency (kHz)')
-    caxis([-200 -30])
+%    caxis([-200 -30])
     ch=colorbar;
     pause(1);
     delete(ch);    
@@ -84,7 +85,7 @@ plot3 = subplot(2,3,5);
     set(gca, 'YTicklabel', roundsd(chnk2_Xi,2):0.05:roundsd(chnk2_Xf,2))
     xlabel('')
     set(gca, 'XTicklabel',{' '});
-    caxis([-200 -30])
+%    caxis([-200 -30])
     ch=colorbar;
     pause(1);
     delete(ch);    
@@ -96,7 +97,7 @@ plot4 = subplot(2,3,6);
     set(gca, 'YTicklabel', roundsd(chnk3_Xi,2):0.05:roundsd(chnk3_Xf,2));
     xlabel('')
     set(gca, 'XTicklabel',[]);
-    caxis([-200 -30])
+%    caxis([-200 -30])
     ch=colorbar;
     pause(1);
     delete(ch);    

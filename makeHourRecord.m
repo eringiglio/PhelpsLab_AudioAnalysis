@@ -13,18 +13,17 @@ end
 
 clear file1; clear file2; clear song
 
-file1 = read_songs('12-15-19_ch6_2521_10_23_02.F32');
-file2 = read_songs('12-15-19_ch6_2581_11_24_28.F32');
+file1 = read_songs('8-12_ch4_901_09_21_02.F32');
+file2 = read_songs('8-12_ch4_961_10_22_28.F32');
 
 file1 = rx8Filter(file1);
 file2 = rx8Filter(file2);
 
-secondsTrimmed = 36*60+58;
+secondsTrimmed = 38*60+58;
 
 samples = round(secondsTrimmed * samp_freq);
 
 song = file1(samples:360000000);
 song(360000001-samples:360000000) = file2(1:samples);
 
-write_songs('12-17_ch6_playback.F32',song);
-
+write_songs('08-14_ch4_preplay.F32',song);

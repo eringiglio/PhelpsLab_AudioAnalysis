@@ -22,7 +22,17 @@ end
 
 %Define variables
 [r,c] = size(call);
-threshold = threshold*std(call(r-1000:r,1));
+
+thres_start = threshold*std(call(r-1000:r,1));
+thres_end = threshold*std(call(1:1000,1));
+if thres_start == 0
+    threshold = thres_end;
+elseif thres_end == 0
+    threshold = thres_start;
+else
+    threshold = min(thres_end,thres_start);
+end
+
 reset = round(reset*samp_rate/1000); %define criteria (# subthreshold samples) for resetting note counter to being outside a note
 [call_dur, c] = size(call); %call_dur determines number of samples to cycle through
 B=1;                        %counts beginning of notes
@@ -75,6 +85,10 @@ for i=1:call_dur
         end
         last_lo=i;
     end
+end
+
+if note == 1
+    note_ends(E) = i;
 end
 
 

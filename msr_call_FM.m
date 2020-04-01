@@ -38,6 +38,7 @@ b = round(note_ends*sampling_rate/1000);
 a = a - spec_resol/2; % For purposes of measuring frequency parameter, need to expand window so that frequency analysis window can be centered at beginning and end of note. 
 a(a<0) = 1; %a should never be negative! 
 b = b + spec_resol/2;
+b(b>length(call)) = length(call); %b should also never extend beyond the length of the song
 
 for i=1:note_num
     [notes_max_Hz(i,1), notes_min_Hz(i,1), notes_FM(i,:), notes_resid(i,1)] = msr_note_Hz(call(a(i):b(i)), sampling_rate, spec_resol, method);

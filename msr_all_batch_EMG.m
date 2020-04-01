@@ -64,7 +64,7 @@ file_max = range(1,2);
 call_list = call_list(file_min:file_max,:); %call_list file should have file list only!
 parameters = param_list(file_min:file_max,:);
 
-[num_calls, c] = size(parameters);
+[num_calls, ~] = size(parameters);
 
 if num_calls>10, disp('Figure capability turned off for more than 10 calls.'); fig_on = 0; end
 
@@ -82,20 +82,13 @@ for i =1:num_calls
     file_name = char(call_list(i,:)); %***
     fid = fopen(file_name,'r');
     
-    call_length = parameters(i,1);
     call_position = parameters(i,2);
     samp_rate = parameters(i,3);
-    threshold = parameters(i,4);
     
-    n = call_position*call_length;
-    call = fread(fid, n, 'float32');
-    if call_position > 1
-            call = call(((call_position-1)*call_length + 1):call_position*call_length);
-    elseif call_position == 1
-        call = call(1:call_length);
-    else
-        error('Error specifying call position. Should be positive integer size 1 or larger.')
-    end
+    call = fread(fid, 'float32');
+    call_length = length(call);
+    threshold = id_optimal_thresholds(call,samp_rate);
+    
     fclose(fid);
     
     % Define call ID
@@ -126,4 +119,4 @@ end
 
  % fclose(fid_call_stats);
 
-xlswrite('output_file',call_stats);
+csvwrite(output_file,call_stats);

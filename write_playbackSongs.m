@@ -1,4 +1,4 @@
-function [] = write_playbackSongs(outputTable, song,outFile)
+function [newName] = write_playbackSongs(outputTable, song,outFile)
 
 %This routine exists in order to take the output of findPlaybackSongs and
 %use it to create a series of 30sec recordings that can be analyzed later
