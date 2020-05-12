@@ -1,4 +1,5 @@
 function [call_stats, call_stat_labels, all_notes_matrix_AL, note_labels] = msr_all_AL(call, samp_rate, threshold, reset, time_code, curve_meth, INI_max, fig_on, BUTTfil_on, call_id)
+% 5/20 - EMG added duty cycle to the list. 
 % 9/18 - EMG added FM_slope calculation. This metric measures the slope of
 % frequency shifts from the final frequency of one note to the starting
 % frequency of the next; steeper should be higher quality. This is
@@ -193,7 +194,6 @@ call_Hz_min = min(all_notes_matrix_AL(:,17));
 call_BW_mean = mean(all_notes_matrix_AL(:,16)) - mean(all_notes_matrix_AL(:,17));
 call_BW_max = call_Hz_max - call_Hz_min;
 
-
 % Concatenate data and labels for output
 %---------------------------------------
 all_notes_matrix = all_notes_matrix_AL;
@@ -208,11 +208,12 @@ call_stats = [note_num, call_length, call_DF,...
 
 FM_score = FM_total/call_stats(1,2); % divide arcsum by the call_length    
 trill_rate = note_num/call_length;
+dutyCycle = sum(all_notes_matrix(:,3)) / call_stats(1,2); %divide total note duration by song length
 call_stats = [call_stats, trill_rate, FM_total, FM_score, ...
-    call_Hz_max, call_Hz_min, call_BW_mean, call_BW_max];
+    call_Hz_max, call_Hz_min, call_BW_mean, call_BW_max,dutyCycle];
 
 Hz_FM_labels = char('trill_rate','FM_total', 'FM_score', ...
-    'call_Hz_max', 'call_Hz_min', 'call_BW_mean', 'call_BW_max');
+    'call_Hz_max', 'call_Hz_min', 'call_BW_mean', 'call_BW_max','dutyCycle');
 
 call_stat_labels = char('note_num', 'call_length', 'call_DF', ...
     'entropy', 'pk_amp', 'rms', 'pk_power');
